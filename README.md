@@ -1,125 +1,93 @@
-# Momentum Ledger - How to Run
+# Momentum Ledger ✨
 
-This is your productivity app! Follow these simple steps to run it.
+[![GitHub](https://img.shields.io/badge/GitHub-Saraahameed/Momentum--Ledger-blue)](https://github.com/Saraahameed/Momentum-Ledger)
 
-## What's Inside
+A beautifully designed productivity application with a charming girly theme for managing tasks and projects. Built with React and Node.js (Express), it helps users organize work, track progress, and stay focused in a clean, distraction-free environment.
 
-```
-momentum-ledger/
-├── frontend/     <-- The website you see (React)
-├── backend/      <-- The brain that saves your data (Node.js)
-├── Dockerfile    <-- Instructions for Docker to build the app
-└── docker-compose.yml  <-- Starts everything together
-```
+## Table of Contents
 
-## Before You Start
+- [About](#about)
+- [Features](#features)
+- [Demo](#demo)
+- [Repository Links](#repository-links)
+- [Local Development](#local-development)
+- [Technologies Used](#technologies-used)
+- [Planned Enhancements](#planned-enhancements)
 
-Make sure you have **Docker** installed on your computer.
-- Download Docker: https://www.docker.com/products/docker-desktop
+## About
 
-## Step-by-Step Instructions
+Momentum Ledger is designed to streamline task and project management with a delightful, feminine touch. Users can easily create, organize, and track tasks while maintaining focus in a pastel pink and purple themed interface.
 
-### Step 1: Open Terminal
+## Features
 
-Open Terminal (Mac) or Command Prompt (Windows) and go to this folder:
+- **Task Management**: Create, edit, and organize tasks with priorities, due dates, and notes
+- **Project Organization**: Group tasks into projects with custom colors
+- **Status Tracking**: Mark tasks as open or done with quick toggles
+- **Filtering**: Filter tasks by status and project for focused work sessions
+- **Secure Authentication**: JWT-based authentication keeps user data private
+- **Girly Theme**: Adorable pastel colors, cursive fonts, and feminine design elements
 
-```bash
-cd path/to/momentum-ledger
-```
+## Demo
 
-### Step 2: Create Your Settings File
+The application can be deployed for live demonstration. (Add deployed URL here if available)
 
-Copy the example settings file:
+## Repository Links
 
-```bash
-cp .env.example .env
-```
+- **GitHub Repository**: [https://github.com/Saraahameed/Momentum-Ledger](https://github.com/Saraahameed/Momentum-Ledger)
+- **Front-End Repository**: The frontend code is in the `frontend` folder of the repository
+- **Back-End Repository**: The backend code is in the `backend` folder of the repository
 
-### Step 3: Set a Secret Key
+## Local Development
 
-Open the `.env` file and change this line:
+1. Clone the repository from GitHub:
+   ```bash
+   git clone https://github.com/Saraahameed/Momentum-Ledger.git
+   ```
 
-```
-JWT_SECRET=your-super-secret-key-change-this-in-production
-```
+### Backend Setup
 
-Replace it with a random string. You can generate one by running:
+1. Navigate to the backend folder:
+   ```bash
+   cd backend
+   ```
+2. Install dependencies:
+   ```bash
+   npm install
+   ```
+3. Start the development server:
+   ```bash
+   npm run dev
+   ```
 
-```bash
-openssl rand -hex 32
-```
+### Frontend Setup
 
-Copy the output and paste it after `JWT_SECRET=`
+1. Navigate to the frontend folder:
+   ```bash
+   cd frontend
+   ```
+2. Install dependencies:
+   ```bash
+   npm install
+   ```
+3. Start the development server:
+   ```bash
+   npm run dev
+   ```
+4. Open the application in your browser at `http://localhost:5173`
 
-### Step 4: Start the App
+## Technologies Used
 
-Run this command:
+- **Frontend**: React, CSS3, Vite
+- **Backend**: Node.js, Express
+- **Programming Language**: JavaScript (ES6+)
 
-```bash
-docker compose up --build -d
-```
+## Planned Enhancements
 
-Wait for it to finish (might take a few minutes the first time).
-
-### Step 5: Open the App
-
-Open your web browser and go to:
-
-```
-http://localhost:5000
-```
-
-You should see the Momentum Ledger login page!
-
-## Helpful Commands
-
-| What you want to do | Command |
-|---------------------|---------|
-| Start the app | `docker compose up -d` |
-| Stop the app | `docker compose down` |
-| See what's running | `docker compose ps` |
-| See the logs | `docker compose logs -f` |
-| Restart everything | `docker compose restart` |
-| Delete everything and start fresh | `docker compose down -v` |
-
-## Troubleshooting
-
-### "Port already in use" error
-
-Change the port in your `.env` file:
-```
-APP_PORT=3000
-```
-Then access the app at `http://localhost:3000`
-
-### App won't start
-
-Check the logs to see what's wrong:
-```bash
-docker compose logs app
-```
-
-### Forgot your password
-
-Unfortunately, you'll need to create a new account. Your old tasks will be gone.
-
-## Project Structure Explained
-
-- **frontend/** - This is the React code that creates the website you see
-  - `src/App.jsx` - The main component with all the UI
-  - `src/api.js` - Functions that talk to the backend
-  - `src/styles.css` - All the colors and styling
-
-- **backend/** - This is the Node.js code that handles data
-  - `index.js` - The main server file
-  - `routes/auth.js` - Login and signup
-  - `routes/tasks.js` - Create, edit, delete tasks
-  - `routes/projects.js` - Create, edit, delete projects
-  - `db.js` - Connects to MongoDB database
-
-## Need Help?
-
-If something doesn't work, try:
-1. Stop everything: `docker compose down`
-2. Start fresh: `docker compose up --build -d`
-3. Check the logs: `docker compose logs -f`
+- [ ] Dark mode toggle
+- [ ] Drag and drop task reordering
+- [ ] Task due date reminders and notifications
+- [ ] Recurring tasks support
+- [ ] Task labels and tags
+- [ ] Export tasks to CSV or PDF
+- [ ] Collaborative workspaces for teams
+- [ ] Mobile app with offline support

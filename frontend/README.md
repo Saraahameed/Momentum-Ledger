@@ -1,56 +1,93 @@
-# Momentum Ledger
+# Momentum Ledger ✨
 
-![Momentum Ledger Logo](https://via.placeholder.com/120x120/1f7f7b/ffffff?text=ML)
+[![GitHub](https://img.shields.io/badge/GitHub-Saraahameed/Momentum--Ledger-blue)](https://github.com/Saraahameed/Momentum-Ledger)
 
-A modern productivity application for managing tasks and projects. Built with React and Express, Momentum Ledger helps you organize your work, track progress, and stay focused on what matters.
+A beautifully designed productivity application with a charming girly theme for managing tasks and projects. Built with React and Node.js (Express), it helps users organize work, track progress, and stay focused in a clean, distraction-free environment.
+
+## Table of Contents
+
+- [About](#about)
+- [Features](#features)
+- [Demo](#demo)
+- [Repository Links](#repository-links)
+- [Local Development](#local-development)
+- [Technologies Used](#technologies-used)
+- [Planned Enhancements](#planned-enhancements)
 
 ## About
 
-Momentum Ledger was created to provide a clean, distraction-free environment for task management. The application features:
+Momentum Ledger is designed to streamline task and project management with a delightful, feminine touch. Users can easily create, organize, and track tasks while maintaining focus in a pastel pink and purple themed interface.
+
+## Features
 
 - **Task Management**: Create, edit, and organize tasks with priorities, due dates, and notes
 - **Project Organization**: Group tasks into projects with custom colors
 - **Status Tracking**: Mark tasks as open or done with quick toggles
 - **Filtering**: Filter tasks by status and project for focused work sessions
-- **Secure Authentication**: JWT-based authentication keeps your data private
+- **Secure Authentication**: JWT-based authentication keeps user data private
+- **Girly Theme**: Adorable pastel colors, cursive fonts, and feminine design elements
 
-## Getting Started
+## Demo
 
-### Deployed Application
+The application can be deployed for live demonstration. (Add deployed URL here if available)
 
-[Live Demo](#) *(Add your deployed URL here)*
+## Repository Links
 
-### Planning Materials
+- **GitHub Repository**: [https://github.com/Saraahameed/Momentum-Ledger](https://github.com/Saraahameed/Momentum-Ledger)
+- **Front-End Repository**: The frontend code is in the `frontend` folder of the repository
+- **Back-End Repository**: The backend code is in the `backend` folder of the repository
 
-[Project Planning](#) *(Add link to your planning materials)*
+## Local Development
 
-### Back-End Repository
+1. Clone the repository from GitHub:
+   ```bash
+   git clone https://github.com/Saraahameed/Momentum-Ledger.git
+   ```
 
-[momentum-ledger-backend](https://github.com/yourusername/momentum-ledger-backend) *(Update with your repo URL)*
+### Backend Setup
 
-### Local Development
+1. Navigate to the backend folder:
+   ```bash
+   cd backend
+   ```
+2. Install dependencies:
+   ```bash
+   npm install
+   ```
+3. Start the development server:
+   ```bash
+   npm run dev
+   ```
 
-1. Clone the repository
-2. Install dependencies: `npm install`
-3. Start the development server: `npm run dev`
-4. Open http://localhost:5173 in your browser
+### Frontend Setup
+
+1. Navigate to the frontend folder:
+   ```bash
+   cd frontend
+   ```
+2. Install dependencies:
+   ```bash
+   npm install
+   ```
+3. Start the development server:
+   ```bash
+   npm run dev
+   ```
+4. Open the application in your browser at `http://localhost:5173`
 
 ## Technologies Used
 
-- **React** - Frontend UI library
-- **Vite** - Build tool and development server
-- **CSS3** - Styling with CSS Grid and Flexbox
-- **JavaScript (ES6+)** - Programming language
+- **Frontend**: React, CSS3, Vite
+- **Backend**: Node.js, Express
+- **Programming Language**: JavaScript (ES6+)
 
-## Next Steps
+## Planned Enhancements
 
-Planned future enhancements:
-
-- [ ] Dark mode toggle for comfortable night usage
+- [ ] Dark mode toggle
 - [ ] Drag and drop task reordering
 - [ ] Task due date reminders and notifications
 - [ ] Recurring tasks support
-- [ ] Task labels and tags for additional organization
-- [ ] Export tasks to CSV/PDF
-- [ ] Collaborative workspaces for team projects
+- [ ] Task labels and tags
+- [ ] Export tasks to CSV or PDF
+- [ ] Collaborative workspaces for teams
 - [ ] Mobile app with offline support
