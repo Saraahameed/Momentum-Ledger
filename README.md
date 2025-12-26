@@ -104,3 +104,4 @@ The application can be deployed for live demonstration. (Add deployed URL here i
 - [ ] Export tasks to CSV or PDF
 - [ ] Collaborative workspaces for teams
 - [ ] Mobile app with offline support
+- [ ] Countdown timer/stream for music or study groups
