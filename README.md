@@ -33,7 +33,7 @@ The application can be deployed for live demonstration. (Add deployed URL here i
 
 ## Screenshots
 
-![Momentum Ledger Screenshot](screenshots/screenshot.png)
+![Momentum Ledger Screenshot](https://imgur.com/a/PfjH3R9)
 
 ## Repository Links
 
