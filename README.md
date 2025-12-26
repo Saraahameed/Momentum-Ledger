@@ -20,7 +20,7 @@ Momentum Ledger is designed to streamline task and project management with a del
 
 ## Features
 
-- **Task Management**: Create, edit, and organize tasks with priorities, due dates, and notes
+- **Task Management**: Create, edit, and organize tasks with priorities and due dates
 - **Project Organization**: Group tasks into projects with custom colors
 - **Status Tracking**: Mark tasks as open or done with quick toggles
 - **Filtering**: Filter tasks by status and project for focused work sessions
