@@ -31,9 +31,9 @@ Momentum Ledger is designed to streamline task and project management with a del
 
 The application can be deployed for live demonstration. (Add deployed URL here if available)
 
-## Screenshots
+## Logo
 
-![Momentum Ledger Screenshot](https://imgur.com/a/PfjH3R9)
+![Momentum Ledger Logo](https://i.imgur.com/jvqKNK5.png)
 
 ## Repository Links
 
