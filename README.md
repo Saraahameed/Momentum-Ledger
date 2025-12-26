@@ -75,6 +75,15 @@ The application can be deployed for live demonstration. (Add deployed URL here i
    ```
 4. Open the application in your browser at `http://localhost:5173`
 
+### Docker Setup (Alternative)
+
+1. Ensure Docker and Docker Compose are installed.
+2. Run the application with Docker Compose:
+   ```bash
+   docker compose up --build -d
+   ```
+3. Open the application in your browser at `http://localhost:5002`
+
 ## Technologies Used
 
 - **Frontend**: React, CSS3, Vite
